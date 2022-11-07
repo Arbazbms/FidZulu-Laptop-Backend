@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var laptopRouter = require('./routes/laptops');
 
 var app = express();
-var port = 3000;
+var port = 3036;
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');

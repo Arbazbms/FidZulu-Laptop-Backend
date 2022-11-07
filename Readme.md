@@ -7,28 +7,19 @@
 ## Run the app
 
     npm start
-    
-## BaseUrl / PORT
-    http://localhost:3022
 
 ## Endpoints
   
-`GET classB/:servicename/all/:locations`
+`GET laptops/all/:location`
 
-    curl -i -H 'Accept: application/json' http://localhost:3022/classB/laptops/all/durham
+    curl -i -H 'Accept: application/json' http://localhost:3036/laptops/all/Durham
   Returns product with price
   
     [*] Possible values for location - [Durham, Raleigh]
     [*] If location is empty or invalid return a default price without sales tax
-    [*] Possible values for servicename - [laptops, dvds, books]
-    [*] Servicename should not be empty
     
     
-`GET classB/:servicename/team`
+`GET /laptops/team`
 
-    curl -i -H 'Accept: application/json' http://localhost:3022/classB/laptops/team
+    curl -i -H 'Accept: application/json' http://localhost:3036/laptops/team
   Returns team name and Members in the team
-  
-    [*] Possible values for servicename - [laptops, dvds, books]
-    [*] Servicename should not be empty
-

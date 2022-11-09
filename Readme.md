@@ -3,6 +3,8 @@
 ## Install
 
     npm install
+    npm install express -g 
+    npm install nodemon -g
 
 ## Run the app
 

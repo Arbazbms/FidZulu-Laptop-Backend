@@ -1,6 +1,5 @@
-
 let teamNames = ['Saif', 'Tanmay', 'Manu', 'Jamaal', 'Arbaz'];
-let teamName = "team09-laptops";
+let teamName = "Laptops";
 
 
 module.exports = {
